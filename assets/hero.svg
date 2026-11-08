@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">Eureka Zhang — AI infrastructure</title>
+  <desc id="desc">A black-and-white cartoon monkey with a wide cream face and tiny dot eyes peeks over a terminal window. The terminal reads AI infrastructure, kernels, and inference.</desc>
+  <defs>
+    <pattern id="dotgrid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2.5" cy="2.5" r="1.15" fill="#0B0B0B" opacity="0.16"/>
+    </pattern>
+    <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#0B0B0B" stroke-width="1.2" opacity="0.18"/>
+    </pattern>
+    <radialGradient id="blush" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D8CEC2" stop-opacity="0.75"/>
+      <stop offset="65%" stop-color="#D8CEC2" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#D8CEC2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="400" fill="#F4F1E8"/>
+  <rect width="1200" height="400" fill="url(#dotgrid)"/>
+
+  <!-- small registration marks -->
+  <g stroke="#0B0B0B" stroke-width="1.4" opacity="0.55">
+    <path d="M24 24h14M31 17v14"/>
+    <path d="M1176 24h-14M1169 17v14"/>
+    <path d="M24 376h14M31 369v14"/>
+    <path d="M1176 376h-14M1169 369v14"/>
+  </g>
+
+  <!-- RIGHT : terminal + monkey -->
+  <g transform="translate(600 200) scale(0.92) translate(-600 -200) translate(-500 -25)">
+    <!-- offset shadow -->
+    <rect x="814" y="196" width="606" height="228" fill="#0B0B0B" opacity="0.16"/>
+
+    <!-- monkey : wide head, based on the hand-drawn reference -->
+    <g>
+      <!-- ears, behind the head -->
+      <rect x="880" y="80" width="92" height="112" rx="40" fill="#DCD4C6" stroke="#0B0B0B" stroke-width="7"/>
+      <rect x="1248" y="80" width="92" height="112" rx="40" fill="#DCD4C6" stroke="#0B0B0B" stroke-width="7"/>
+      <rect x="888" y="100" width="38" height="72" rx="18" fill="#FFFDF7" stroke="#0B0B0B" stroke-width="4.5"/>
+      <rect x="1292" y="100" width="38" height="72" rx="18" fill="#FFFDF7" stroke="#0B0B0B" stroke-width="4.5"/>
+      <path d="M902 128l10 10M912 128l-10 10" stroke="#0B0B0B" stroke-width="2.8" stroke-linecap="round" opacity="0.5"/>
+      <path d="M1308 128l10 10M1318 128l-10 10" stroke="#0B0B0B" stroke-width="2.8" stroke-linecap="round" opacity="0.5"/>
+
+      <!-- wide head -->
+      <rect x="930" y="52" width="360" height="156" rx="60" fill="#DCD4C6" stroke="#0B0B0B" stroke-width="7"/>
+
+      <!-- soft face patch with a heart-like notch -->
+      <path d="M994 112C994 94 1010 80 1032 80C1060 80 1090 94 1110 114C1130 94 1160 80 1188 80C1210 80 1226 94 1226 112L1226 162C1226 186 1180 196 1110 196C1040 196 994 186 994 162Z" fill="#FFFDF7" stroke="#0B0B0B" stroke-width="6" stroke-linejoin="round"/>
+
+      <!-- soft watercolor cheeks -->
+      <ellipse cx="1044" cy="160" rx="38" ry="23" fill="url(#blush)"/>
+      <ellipse cx="1176" cy="160" rx="38" ry="23" fill="url(#blush)"/>
+
+      <!-- no highlights : two tiny dot eyes, a bean nose, a small ∩ mouth -->
+      <circle cx="1095" cy="138" r="5.3" fill="#0B0B0B"/>
+      <circle cx="1125" cy="139" r="5.7" fill="#0B0B0B"/>
+      <path d="M1105 148C1106 145 1110 144 1113 146C1116 148 1117 151 1114 153C1112 155 1108 155 1106 153C1104 152 1104 150 1105 148Z" fill="#0B0B0B"/>
+      <path d="M1110 155v3" stroke="#0B0B0B" stroke-width="2.2" stroke-linecap="round" opacity="0.8"/>
+      <path d="M1101 163C1105 159 1115 159 1119 163" fill="none" stroke="#0B0B0B" stroke-width="3.4" stroke-linecap="round"/>
+    </g>
+
+    <!-- terminal -->
+    <g>
+      <rect x="800" y="180" width="606" height="228" fill="#0B0B0B"/>
+      <line x1="800" y1="224" x2="1406" y2="224" stroke="#F4F1E8" stroke-width="1.4" opacity="0.32"/>
+      <circle cx="824" cy="202" r="5" fill="none" stroke="#F4F1E8" stroke-width="1.6"/>
+      <circle cx="844" cy="202" r="5" fill="none" stroke="#F4F1E8" stroke-width="1.6"/>
+      <circle cx="864" cy="202" r="5" fill="none" stroke="#F4F1E8" stroke-width="1.6"/>
+      <text x="1390" y="207" text-anchor="end" font-family="'SF Mono','Menlo','Consolas','Courier New',monospace" font-size="10" font-weight="700" letter-spacing="1.2" fill="#F4F1E8" opacity="0.45">tty1</text>
+
+      <g font-family="'SF Mono','Menlo','Consolas','Courier New',monospace" font-weight="700">
+        <text x="830" y="264" font-size="17" fill="#F4F1E8" opacity="0.55">$ whoami</text>
+        <text x="830" y="294" font-size="24" fill="#FFFDF7">eureka zhang<tspan fill="#F4F1E8" opacity="0.55" font-size="17">  — ai infra</tspan></text>
+        <text x="830" y="336" font-size="17" fill="#F4F1E8" opacity="0.55">$ cat focus.txt</text>
+        <text x="830" y="367" font-size="24" fill="#FFFDF7">ai infra / kernels / inference</text>
+        <rect x="830" y="382" width="11" height="18" fill="#F4F1E8"/>
+      </g>
+    </g>
+
+    <!-- little sparkle -->
+    <path d="M1392 112C1398 126 1402 130 1416 136C1402 142 1398 146 1392 160C1386 146 1382 142 1368 136C1382 130 1386 126 1392 112Z" fill="#0B0B0B" opacity="0.8"/>
+    <path d="M735 58C739 67 741 69 750 73C741 77 739 79 735 88C731 79 729 77 720 73C729 69 731 67 735 58Z" fill="#0B0B0B" opacity="0.55"/>
+  </g>
+
+</svg>
