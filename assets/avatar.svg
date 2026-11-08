@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
   <title id="title">Eureka monkey avatar</title>
-  <desc id="desc">Eureka's hand-drawn-inspired cartoon monkey: a wide cream face, side ears, tiny dot eyes with no highlights, a bean nose, a small ∩ mouth, and soft grey blush.</desc>
+  <desc id="desc">Eureka's hand-drawn-inspired cartoon monkey: a wide cream face, side ears, tiny dot eyes with no highlights, a bean nose, a small ∩ mouth, soft grey blush, and a tiny banana on its head.</desc>
   <defs>
     <clipPath id="clip"><circle cx="320" cy="320" r="320"/></clipPath>
     <radialGradient id="blush" cx="50%" cy="50%" r="50%">
@@ -24,6 +24,16 @@
 
       <!-- wide head -->
       <rect x="120" y="190" width="400" height="280" rx="100" fill="#DCD4C6" stroke="#0B0B0B" stroke-width="10"/>
+
+      <!-- tiny banana -->
+      <g transform="rotate(-18 380 175)">
+        <path d="M326 178C332 200 354 212 378 208C401 204 419 187 425 164L404 156C398 175 384 188 368 190C350 192 340 181 336 164Z" fill="#FFFDF7" stroke="#0B0B0B" stroke-width="8" stroke-linejoin="round"/>
+        <path d="M420 166L438 152" stroke="#0B0B0B" stroke-width="14" stroke-linecap="round"/>
+        <path d="M420 166L438 152" stroke="#FFFDF7" stroke-width="6" stroke-linecap="round"/>
+        <path d="M328 176L312 182" stroke="#0B0B0B" stroke-width="11" stroke-linecap="round"/>
+        <path d="M328 176L312 182" stroke="#FFFDF7" stroke-width="5" stroke-linecap="round"/>
+        <path d="M346 176C354 194 368 202 384 200" fill="none" stroke="#0B0B0B" stroke-width="3" stroke-linecap="round" opacity="0.35"/>
+      </g>
 
       <!-- face patch with heart notch -->
       <path d="M190 270C190 242 214 230 245 230C280 230 306 248 320 280C334 248 360 230 395 230C426 230 450 242 450 270L450 380C450 410 408 420 320 420C232 420 190 410 190 380Z" fill="#FFFDF7" stroke="#0B0B0B" stroke-width="9" stroke-linejoin="round"/>
