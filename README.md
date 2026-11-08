@@ -4,7 +4,7 @@
 
 <div align="center">
   <a href="https://github.com/Eureka-Zhang">
-    <img src="assets/hero.svg" width="100%" alt="A black-and-white cartoon monkey peeks over a terminal reading AI infra, kernels, and inference.">
+    <img src="assets/hero.svg" width="100%" alt="A pixel-art monkey peeks over a terminal reading EUREKA ZHANG and AI INFRA / INFERENCE.">
   </a>
 </div>
 
