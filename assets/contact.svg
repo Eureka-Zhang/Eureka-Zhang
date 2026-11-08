@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Let's talk shop.</title>
+  <desc id="desc">Black contact panel with a cartoon monkey stamp. Open to AI infrastructure, inference, kernels, and hard problems.</desc>
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.05" fill="#F4F1E8" opacity="0.13"/>
+    </pattern>
+    <clipPath id="stampClip"><circle cx="1018" cy="160" r="84"/></clipPath>
+    <radialGradient id="blush" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D8CEC2" stop-opacity="0.8"/>
+      <stop offset="65%" stop-color="#D8CEC2" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#D8CEC2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="340" fill="#0B0B0B"/>
+  <rect width="1200" height="340" fill="url(#dots)"/>
+
+  <text x="64" y="58" font-family="'SF Mono','Menlo','Consolas','Courier New',monospace" font-size="10" font-weight="700" letter-spacing="3.1" fill="#F4F1E8" opacity="0.55">OPEN A CHANNEL</text>
+
+  <text x="58" y="136" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-size="62" font-weight="900" letter-spacing="-2.4" fill="#F4F1E8">LET'S TALK</text>
+  <text x="58" y="196" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-size="62" font-weight="900" letter-spacing="-2.4" fill="#F4F1E8">SHOP.</text>
+
+  <text x="64" y="236" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" font-weight="500" fill="#F4F1E8" opacity="0.68">If you are working on inference, kernels, or the layer</text>
+  <text x="64" y="256" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" font-weight="500" fill="#F4F1E8" opacity="0.68">beneath the model — say hello on GitHub.</text>
+
+  <text x="64" y="305" font-family="'SF Mono','Menlo','Consolas','Courier New',monospace" font-size="9" font-weight="700" letter-spacing="2.4" fill="#F4F1E8" opacity="0.38">GITHUB / VLLM / FLASHINFER</text>
+
+  <!-- stamp -->
+  <circle cx="1018" cy="160" r="87" fill="#0B0B0B" stroke="#F4F1E8" stroke-width="3"/>
+  <g clip-path="url(#stampClip)">
+    <circle cx="1018" cy="160" r="84" fill="#0B0B0B"/>
+    <g transform="translate(1018 160) scale(0.32) translate(-320 -320)">
+    <g transform="translate(0 -10)">
+      <!-- ears, behind the head -->
+      <rect x="60" y="240" width="120" height="180" rx="55" fill="#DCD4C6" stroke="#0B0B0B" stroke-width="10"/>
+      <rect x="460" y="240" width="120" height="180" rx="55" fill="#DCD4C6" stroke="#0B0B0B" stroke-width="10"/>
+      <rect x="72" y="270" width="44" height="120" rx="22" fill="#FFFDF7" stroke="#0B0B0B" stroke-width="6"/>
+      <rect x="524" y="270" width="44" height="120" rx="22" fill="#FFFDF7" stroke="#0B0B0B" stroke-width="6"/>
+      <path d="M88 324l12 12M100 324l-12 12" stroke="#0B0B0B" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+      <path d="M540 324l12 12M552 324l-12 12" stroke="#0B0B0B" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+
+      <!-- wide head -->
+      <rect x="120" y="190" width="400" height="280" rx="100" fill="#DCD4C6" stroke="#0B0B0B" stroke-width="10"/>
+
+      <!-- face patch with heart notch -->
+      <path d="M190 270C190 242 214 230 245 230C280 230 306 248 320 280C334 248 360 230 395 230C426 230 450 242 450 270L450 380C450 410 408 420 320 420C232 420 190 410 190 380Z" fill="#FFFDF7" stroke="#0B0B0B" stroke-width="9" stroke-linejoin="round"/>
+
+      <!-- soft grey blush -->
+      <ellipse cx="255" cy="345" rx="46" ry="28" fill="url(#blush)"/>
+      <ellipse cx="385" cy="345" rx="46" ry="28" fill="url(#blush)"/>
+
+      <!-- dot eyes, no highlights; bean nose; small ∩ mouth -->
+      <circle cx="300" cy="305" r="12" fill="#0B0B0B"/>
+      <circle cx="340" cy="306" r="12.5" fill="#0B0B0B"/>
+      <path d="M313 337C315 332 320 330 324 332C328 334 330 339 327 343C325 346 319 347 316 345C313 343 312 340 313 337Z" fill="#0B0B0B"/>
+      <path d="M320 346v5" stroke="#0B0B0B" stroke-width="3.5" stroke-linecap="round" opacity="0.8"/>
+      <path d="M304 359C310 353 330 353 336 359" fill="none" stroke="#0B0B0B" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    </g>
+  </g>
+
+  <g font-family="'SF Mono','Menlo','Consolas','Courier New',monospace" text-anchor="end" fill="#F4F1E8">
+    <text x="1152" y="282" font-size="9" font-weight="700" letter-spacing="2.4" opacity="0.55">OPEN TO</text>
+    <text x="1152" y="300" font-size="9" font-weight="600" letter-spacing="1.8" opacity="0.38">AI INFRA / INFERENCE</text>
+    <text x="1152" y="316" font-size="9" font-weight="600" letter-spacing="1.8" opacity="0.38">KERNELS / HARD PROBLEMS</text>
+  </g>
+</svg>
